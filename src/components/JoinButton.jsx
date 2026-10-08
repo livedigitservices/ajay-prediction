@@ -47,9 +47,6 @@ export default function JoinButton({
       {showArrow && (
         <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" />
       )}
-      document.querySelector('a[href*="t.me"]').addEventListener('click', function() {
-  fbq('track', 'Lead')
-})
     </a>
   );
 }
